@@ -1,0 +1,282 @@
+section.scrollbar{
+    overflow: hidden;
+}
+
+
+
+.section2{
+   background-color: aqua;
+   background-image: url(nature3.avif);
+   background-size: cover;
+   position: relative;
+  
+    height: 500px;
+}
+
+.box1 h1{
+    color: rgb(77, 99, 66);
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    padding: 20px;
+}
+.box1{
+    text-align: center;
+}
+.box1 p{
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+   
+}
+.btn1{
+    background-color: rgb(55, 59, 52);
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+}
+.section3{
+    background-color:white;
+    /* height: 300px; */
+    padding-top: 15px;
+   
+}
+.box2{
+    text-align: center;
+}
+.section4{
+    /* height: 500px; */
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-color: whitesmoke;
+}
+.head1{
+    text-align: left;
+    padding-left: 0;
+    
+}
+.pic1{
+    padding-left: 5px;
+    padding-top: 12px;
+}
+.para1{
+    font-size: 15px;
+}
+.btn2{
+    border: none;
+    background-color:whitesmoke;
+    color: rgb(32, 135, 253);
+    font-size: 18px;
+    padding-left: 0;
+}
+.section5{
+    background-color:beige;
+    padding-top: 50px;
+   
+}
+.para2{
+    padding-left: 50px;
+}
+.btn3{
+    border: none;
+    background-color:beige;
+    color: rgb(32, 135, 253);
+    font-size: 18px;
+    padding-left:50px ;
+}
+.pic2{
+    height: 600px;
+    padding-top: 10px;
+}
+.section6{
+    /* background-color: antiquewhite; */
+    height: 280px;
+    padding-top: 20px;
+}
+.box5{
+    text-align: center;
+}
+.btn4{
+    border: none;
+    color: rgb(32, 135, 253);
+    background-color: white;
+}
+.box6{
+    text-align: center;
+}
+.box6 h4{
+    padding-top: 15px;
+}
+
+.section7{
+    padding: 50px 0;
+}
+.section8{
+    background-color:rgb(90, 140, 175);
+   padding-left: 10px;
+}
+.box7{
+    text-align: center;
+    color: white;
+    min-height: 400px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+.btn5{
+   border: 1px solid white;
+   background-color: rgb(90, 140, 175);
+   color: white;
+  
+}
+.box7 h1{
+    color: white;
+}
+.box8{
+    text-align: center;
+    min-height: 400px;
+    padding-top: 60px;
+}
+.btn6{
+    color: white;
+    background-color:rgb(240, 81, 24);
+    border: none;
+    border-radius: 3px;
+    padding:5px;
+}
+.btn7{
+    border: 1px solid grey;
+    background-color: white;
+    color: grey;
+    padding: 4px 60px;
+}
+.para3{
+    font-size: 12px;
+}
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: lightgray;
+    margin: auto;
+}
+.box9{
+    padding-top: 85px;
+
+}
+.box10{
+    min-height: 600px;
+    color: white;
+    text-align: center;
+    /* padding: 60px; */
+}
+.section10{
+    background-color: black;
+    padding: 50px 0;
+}
+.btn8{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-color: white;
+    padding-left: 30px;
+}
+.line1{
+    width: 100%;
+    height: 0.2px;
+    background-color: lightgray;
+    margin: auto;
+}
+.fb{
+    padding: 20px;
+    height: 70px;
+}
+.span{
+    font-size:13px ;
+}
+.sign{
+    background-color: orange;
+}
+.leaf{
+    margin-left: 46%;
+    margin-top: -40px;
+}
+.sign1{
+    background-color: orange;
+}
+.span1{
+    font-size: 10px;
+}
+.para4{
+    font-size: 10px;
+}
+.para5{
+    font-size: 10px;
+    line-height: 0px;
+}
+.span2{
+    color: rgb(0, 110, 255);
+}
+.left{
+    background-color: white;
+    width: 52%;
+    height: 30px;
+    position: absolute;
+    left: -40px;
+    bottom: 0;
+    transform: skew(40deg);
+    z-index: 10;
+}
+.right{
+    background-color: white;
+    width: 52%;
+    height: 30px;
+    position: absolute;
+    right: -40px;
+    bottom: 0;
+    transform: skew(-40deg);
+    z-index: 10;
+}
+@media (max-width:768px){
+    .section3{
+        /* height: 400px; */
+        padding-top: 30px;
+   
+    }
+    .section2{
+        height: 500px;
+    }
+    .section4{
+      padding-top: 30px;
+    }
+    .section5{
+        /* height:700px ; */
+        .pic2{
+            height: 500px;
+        
+        }
+    }
+    .left,.right{
+        display: none;
+    }
+    .box3-img{
+        text-align: center;
+    }
+    
+    .box3{
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .para2{
+        padding-left: 10px;
+    }
+    .head2{
+        padding-left: 10px;
+    }
+    .box4{
+        padding-left: 20px;
+    }
+
+}
